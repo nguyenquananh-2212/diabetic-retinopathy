@@ -1,0 +1,16 @@
+{
+  "data_root": "Data/processed/fundus_224_pad_v1",
+  "output_dir": "checkpoints/efficientnet_v2_m",
+  "num_classes": 5,
+  "image_size": 224,
+  "epochs": 20,
+  "batch_size": 4,
+  "num_workers": 2,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "patience": 5,
+  "seed": 42,
+  "pretrained": true,
+  "amp": true,
+  "resume": null
+}

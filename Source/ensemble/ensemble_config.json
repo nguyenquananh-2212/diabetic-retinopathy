@@ -1,0 +1,14 @@
+{
+  "test_root": "Data/processed/fundus_224_pad_v1/test",
+  "swin_checkpoint": "checkpoints/swin_t/best.pt",
+  "efficientnet_checkpoint": "checkpoints/efficientnet_v2_m/best.pt",
+  "output_dir": "results/ensemble_swin_efficientnet_v2_m",
+  "num_classes": 5,
+  "image_size": 224,
+  "batch_size": 4,
+  "num_workers": 0,
+  "swin_weight": 0.5,
+  "efficientnet_weight": 0.5,
+  "decision_rule": "argmax",
+  "amp": true
+}
